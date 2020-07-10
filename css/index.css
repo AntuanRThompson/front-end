@@ -257,6 +257,7 @@ h2 {
   font-size: larger;
   margin: auto;
   display: flex;
+  flex-flow: row wrap;
   
 }
 .Fitness-Levels h2 {
@@ -273,6 +274,10 @@ h2 {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
+}
+.Fitness-Levels .Beginner {
+  width: 100%;
+  position: relative;
 }
 footer p {
   text-align: center;
@@ -292,9 +297,13 @@ footer img{
   background-color: grey;
  }
  .Main-Container {
-   background-image: image('photo-tall-treeline.jpg');
- }
- nav a {
+   background-image:url('https://www.google.com/search?q=free+workout+images&rlz=1C1SQJL_enUS895US896&sxsrf=ALeKk02E2mTFYGmBmB6lLExZcosMrcjiNA:1593401916713&tbm=isch&source=iu&ictx=1&fir=1JEUzJHmM6ZjHM%252C-XD20xhPyi7cwM%252C_&vet=1&usg=AI4_-kQraz-ciZc6cvWwY3u5sYty77CGRQ&sa=X&ved=2ahUKEwiRjevZjKbqAhVRnOAKHQ7zBVoQ9QEwAHoECAoQIw#imgrc=1JEUzJHmM6ZjHM');
+
+  }
+nav {
+  background-color: #FF6900;
+}
+  nav a {
   color: white;
  }  
  h2 {
@@ -312,5 +321,24 @@ footer img{
  justify-content: space-evenly;
  }
 }
-
+.Fitness-Levels2{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 10%;
+  
+}
+.Fitness-Levels2 p {
+  width: 100%;
+  text-align: center;
+}
+.Beginner2, .Intermediate2, .Advanced2 {
+  width: 100%;
+  justify-content: center;
+}
+.pic {
+  width: 80%;
+  height: 60px;
+  justify-content: center;
+}
 
